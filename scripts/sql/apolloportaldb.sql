@@ -311,8 +311,7 @@ VALUES
     ('organizations', '[{\"orgId\":\"TEST1\",\"orgName\":\"样例部门1\"},{\"orgId\":\"TEST2\",\"orgName\":\"样例部门2\"}]', '部门列表'),
     ('superAdmin', 'apollo', 'Portal超级管理员'),
     ('api.readTimeout', '10000', 'http接口read timeout'),
-    ('consumer.token.salt', 'someSalt', 'consumer token salt'),
-    ('admin.createPrivateNamespace.switch', 'false', '是否允许项目管理员创建私有namespace');
+    ('consumer.token.salt', 'someSalt', 'consumer token salt');
 
 INSERT INTO `Users` (`Username`, `Password`, `Email`, `Enabled`)
 VALUES
