@@ -48,12 +48,6 @@ env:
 jdk:
 - oraclejdk8
 language: java
-notification:
-  email:
-    on_failure: always
-    on_success: always
-    recipients:
-    - song_s@ctrip.com,zhanglea@ctrip.com
 script:
 - touch /tmp/NOW
 - echo GIBSTUDYSTART $(date)
